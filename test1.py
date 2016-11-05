@@ -12,7 +12,7 @@ while True:
         # Don't log RX messages to screen
         if not msg.startswith("RX,"):
             print(msg)
-            
+
         # But do log RX messages to file
         f.write(msg + '\n')
         f.flush()
